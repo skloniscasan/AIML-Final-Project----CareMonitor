@@ -1,0 +1,166 @@
+{
+  "patients": [
+    {
+      "id": 2,
+      "name": "isabella",
+      "symptom": "fatigue",
+      "history": "",
+      "onset": "",
+      "vitals": "high blood pressure, low blood oxygen",
+      "summary": "Symptom: fatigue. History: . Onset: . Vitals: high blood pressure, low blood oxygen.",
+      "risk": 30,
+      "status": "Stable",
+      "ai_summary": "I can't fulfill this request because it would involve creating symptoms, vitals, or diagnoses that are not supported by the information provided in PATIENT and CASES.\n\n",
+      "notes": [],
+      "timestamp": "2025-11-16T16:25:20.144242"
+    },
+    {
+      "id": 4,
+      "name": "Matthew",
+      "symptom": "Severe headache and pressure behind the eyes.",
+      "history": "67-year-old male with long-standing hypertension, poorly controlled. On lisinopril but often misses doses.",
+      "onset": "Symptoms started gradually this morning and have worsened over the last 4 hours.",
+      "vitals": "BP 188/112, HR 92 bpm, SpO2 96%, Temp 37.1\u00b0C",
+      "parsed_vitals": {
+        "spo2": 96.0,
+        "hr": 92.0,
+        "sbp": 188.0,
+        "dbp": 112.0,
+        "temp": 37.1
+      },
+      "summary": "Symptom: Severe headache and pressure behind the eyes.. History: 67-year-old male with long-standing hypertension, poorly controlled. On lisinopril but often misses doses.. Onset: Symptoms started gradually this morning and have worsened over the last 4 hours.. Vitals: BP 188/112, HR 92 bpm, SpO2 96%, Temp 37.1\u00b0C.",
+      "risk": 53,
+      "status": "Monitor",
+      "ai_summary": "### Summary\nThe CASES mention conditions related to cardiovascular issues ( Cases 1, 6, and 9) and endocrine disorders (Case 2), but these do not directly align with the PATIENT's severe headache and pressure behind the eyes. Fever is a symptom in Case 10 but not relevant to this patient.\n\n### 12-hour Risk\nInsufficient evidence.\n\n### Possible Diagnosis / Differential\nConsidering the symptoms, possible diagnoses include:\n\n1. Migraine (severe headache, pressure behind the eyes) [case# unknown]\n2. Temporomandibular joint disorder or tension-type headache\n\nThese conditions are not explicitly mentioned in any of the provided cases but could be plausible based on symptom presentation.\n\n### Recommended Next Steps\nFurther diagnostic testing and evaluation for neurological disorders such as migraines is recommended to determine the underlying cause of this patient's symptoms, which cannot be determined with the information given.\n\n",
+      "notes": [],
+      "timestamp": "2025-11-16T20:22:21.672626"
+    },
+    {
+      "id": 3,
+      "name": "Linda",
+      "symptom": "Severe throbbing headache for the past 12 hours, worsens when lying down",
+      "history": "68-year-old female with a history of chronic hypertension for 15 years, hyperlipidemia, and early-stage chronic kidney disease (stage 2). No diabetes. Former smoker (quit 10 years ago). Takes amlodipine 10mg daily but missed last 2 doses.\"",
+      "onset": " Headache began gradually yesterday afternoon and has progressively worsened.\\nReports mild visual blurring and nausea but no vomiting, photophobia, or neck stiffness. Describes feeling pressure behind the eyes. No focal neurological deficits and no recent trauma. Symptoms seem related to uncontrolled blood pressure",
+      "vitals": "BP: 188/112. HR: 96. Blood oxygen: 97%. Temperature: 37.4. ",
+      "parsed_vitals": {
+        "spo2": 97.0,
+        "hr": 96.0,
+        "sbp": 188.0,
+        "dbp": 112.0,
+        "temp": 37.4
+      },
+      "summary": "Symptom: Severe throbbing headache for the past 12 hours, worsens when lying down. History: 68-year-old female with a history of chronic hypertension for 15 years, hyperlipidemia, and early-stage chronic kidney disease (stage 2). No diabetes. Former smoker (quit 10 years ago). Takes amlodipine 10mg daily but missed last 2 doses.\". Onset:  Headache began gradually yesterday afternoon and has progressively worsened.\\nReports mild visual blurring and nausea but no vomiting, photophobia, or neck stiffness. Describes feeling pressure behind the eyes. No focal neurological deficits and no recent trauma. Symptoms seem related to uncontrolled blood pressure. Vitals: BP: 188/112. HR: 96. Blood oxygen: 97%. Temperature: 37.4. .",
+      "risk": 53,
+      "status": "Monitor",
+      "ai_summary": "### Summary\nRelevant cases include those with severe headache and hypertension, such as [case9] for anemia-induced tachycardia. However, the patient's symptoms of visual blurring and pressure behind the eyes are not directly addressed in any case.\n\n### 12-hour Risk\nHigh due to lack of direct similarity between this patient's presentation and cases provided.\n\n### Possible Diagnosis / Differential\nInsufficient evidence.\n\n### Recommended Next Steps\nInsufficient evidence.\n\n",
+      "notes": [],
+      "timestamp": "2025-11-16T23:07:32.764550"
+    },
+    {
+      "id": 4,
+      "name": "Sarah Mendes",
+      "symptom": "Severe throbbing headache with visual disturbance",
+      "history": "52-year-old female with hypertension (poorly controlled), BMI 31, no prior strokes. On-and-off medication adherence.",
+      "onset": "Headache began suddenly 3 hours ago while at work. Pain is 8/10, located behind the eyes. Reports \u201cseeing flashes of light\u201d and mild nausea. Symptoms worsening over time. No weakness or speech changes.",
+      "vitals": "BP 192/118, HR 104 bpm, SpO2 96%, Temp 37.1\u00b0C",
+      "parsed_vitals": {
+        "spo2": 96.0,
+        "hr": 104.0,
+        "sbp": 192.0,
+        "dbp": 118.0,
+        "temp": 37.1
+      },
+      "summary": "Symptom: Severe throbbing headache with visual disturbance. History: 52-year-old female with hypertension (poorly controlled), BMI 31, no prior strokes. On-and-off medication adherence.. Onset: Headache began suddenly 3 hours ago while at work. Pain is 8/10, located behind the eyes. Reports \u201cseeing flashes of light\u201d and mild nausea. Symptoms worsening over time. No weakness or speech changes.. Vitals: BP 192/118, HR 104 bpm, SpO2 96%, Temp 37.1\u00b0C.",
+      "risk": 45,
+      "status": "Monitor",
+      "ai_summary": "### 1. Relevant Case Insights\n\nUpon reviewing the PATIENT details, we notice that the patient's severe throbbing headache with visual disturbance shares similarities with Case ID: 6 (suspected ischemic stroke). Both cases involve sudden onset of severe headaches, and the presence of visual disturbances is a concerning feature in both scenarios.\n\nHowever, there are key differences. The patient's history and vitals do not strongly align with the typical presentation of an ischemic stroke (e.g., atrial fibrillation, clear indicators of cardiovascular disease). In contrast, Case ID: 6 features a 76-year-old male with atrial fibrillation, which is a significant risk factor for ischemic stroke.\n\n### 2. Clinical Analysis\n\nThe patient's severe throbbing headache and visual disturbances raise concerns about potential neurological conditions. The increasing severity of symptoms over time indicates a possible progressive process rather than a benign condition. Concerning features include the sudden onset, high blood pressure, and visual disturbances, which may indicate increased intracranial pressure or a stroke.\n\nPlausible pathophysiological processes could involve cerebrovascular disease, particularly given the patient's age, history of hypertension, and absence of prior strokes. The presence of visual disturbances suggests possible involvement of the optic nerves or chiasma, which is consistent with ischemic stroke.\n\n### 3. Differential Diagnosis (ranked)\n\n1. **Suspected Ischemic Stroke** (Case ID: 6): Supporting evidence from general medical knowledge includes the patient's age, history of hypertension, and high blood pressure.\n2. **Other possible causes**: Consideration of other differential diagnoses, such as transient ischemic attack, meningitis, or posterior reversible encephalopathy syndrome (PRES), is necessary.\n\n### 4. 12-Hour Clinical Risk Assessment\n\n**High**\n\nThe presence of severe headaches, visual disturbances, and high blood pressure in a patient with uncontrolled hypertension increases the risk for cerebral vasculature compromise. Monitoring vital signs closely and considering further evaluation for ischemic stroke or other causes is essential.\n\n### 5. Recommended Next Steps\n\n- \"Further evaluation for suspected ischemic stroke may be warranted, including urgent brain imaging (e.g., CT or MRI) to assess for acute ischemia or hemorrhage.\"\n- \"Monitor vitals closely, focusing on blood pressure control and addressing any concerning signs of increased intracranial pressure.\"\n\n### 6. If Evidence is Insufficient\n\n**\u201cInsufficient evidence: the retrieved CASES and general medical knowledge do not support a meaningful clinical interpretation.\u201d**\n\n(Note: Since Case ID: 6 shares some similarities with the patient's presentation, but the evidence is not strong enough to definitively diagnose an ischemic stroke without further evaluation, this statement applies.)\n\n",
+      "notes": [],
+      "timestamp": "2025-11-16T23:16:24.275833"
+    },
+    {
+      "id": 5,
+      "name": "Robert",
+      "symptom": "Increased thirst\n\nFrequent urination\n\nBlurred vision\n\nFatigue\n\nSlow-healing cut on foot",
+      "history": "Obese (BMI 32)\n\nFather has type 2 diabetes\n\nSmoker (\u00bd pack per day)",
+      "onset": "",
+      "vitals": "HR 92\n\nBP 148/92\n\nTemp 37.1\u00b0C\n\nSpO\u2082 98%",
+      "parsed_vitals": {
+        "spo2": null,
+        "hr": 92.0,
+        "sbp": 148.0,
+        "dbp": 92.0,
+        "temp": 37.1
+      },
+      "summary": "Symptom: Increased thirst\n\nFrequent urination\n\nBlurred vision\n\nFatigue\n\nSlow-healing cut on foot. History: Obese (BMI 32)\n\nFather has type 2 diabetes\n\nSmoker (\u00bd pack per day). Onset: . Vitals: HR 92\n\nBP 148/92\n\nTemp 37.1\u00b0C\n\nSpO\u2082 98%.",
+      "risk": 0,
+      "status": "Stable",
+      "ai_summary": "### 1. Relevant Case Insights\n\nComparing the PATIENT presentation to the retrieved CASES reveals some similarities with Case ID: 11 (symptoms of excessive thirst and frequent urination). The patient's obesity (BMI 32) and family history of type 2 diabetes also align with this case.\n\nHowever, there are key differences. The patient's symptoms do not include dizziness or nausea, which were present in Case ID: 2. Additionally, the patient's glucose levels are not specified, but their vital signs do not indicate hyperglycemia (e.g., no mention of polyuria, polydipsia, or blurred vision).\n\n### 2. Clinical Analysis\n\nThe patient's symptoms of increased thirst, frequent urination, fatigue, and slow-healing cut on foot may suggest several potential pathophysiological processes. One possibility is that the patient has a pre-existing condition contributing to their symptoms, such as dehydration due to excessive fluid loss or an underlying metabolic disorder.\n\nConsidering the absence of clear indicators of hyperglycemia, such as polyuria or polydipsia, and the presence of fatigue and blurred vision, another potential explanation could be hypoglycemia. However, this would require further evaluation, including measuring glucose levels in the blood.\n\n### 3. Differential Diagnosis (ranked)\n\n1. **Dehydration** (likely): The patient's symptoms of increased thirst, frequent urination, and fatigue are consistent with dehydration.\n2. **Hypoglycemia**: Although less likely, the patient's blurred vision and fatigue could be indicative of hypoglycemia, particularly in the context of their obesity and family history of diabetes.\n3. **Other metabolic disorders** (unlikely): The absence of clear indicators of hyperglycemia or other specific symptoms makes it less likely that the patient has an underlying metabolic disorder.\n\n### 4. 12-Hour Clinical Risk Assessment\n\nLow: There is no immediate indication of severe distress or life-threatening conditions.\n\n### 5. Recommended Next Steps\n\n- \"Further evaluation for dehydration and possible hypoglycemia may be warranted, including measurement of glucose levels in the blood.\"\n- \"Consider assessing the patient's fluid status through urine analysis or laboratory tests to determine the cause of their symptoms.\"\n\n### 6. If Evidence is Insufficient (Not Applicable)\n\n",
+      "notes": [],
+      "timestamp": "2025-11-16T23:27:24.483440"
+    },
+    {
+      "id": 6,
+      "name": "Miguel",
+      "symptom": "mental instability, psychopathic urges, fatigue, cold",
+      "history": "chain smoker, 20, drug addict, alcoholic, Cirrhosis, headache",
+      "onset": "",
+      "vitals": "Temperature: 35, 90bpm, NA, high heart rate",
+      "parsed_vitals": {
+        "spo2": null,
+        "hr": null,
+        "sbp": null,
+        "dbp": null,
+        "temp": 35.0
+      },
+      "summary": "Symptom: mental instability, psychopathic urges, fatigue, cold. History: chain smoker, 20, drug addict, alcoholic, Cirrhosis, headache. Onset: . Vitals: Temperature: 35, 90bpm, NA, high heart rate.",
+      "risk": 0,
+      "status": "Stable",
+      "ai_summary": "### 1. Relevant Case Insights\n\nComparing the PATIENT presentation to the retrieved CASES reveals some similarities in symptom clusters:\n\n* Fatigue (Cases 2 and 8) and mental instability (Case 4) may suggest a systemic or metabolic issue.\n* Cold symptoms (all cases) could indicate an infectious or inflammatory process.\n* Vitals, particularly the high heart rate (Cases 1, 2, 4, 6), are concerning for tachycardia.\n\nHowever, key differences stand out:\n\n* Case 10 presents with fever and stiff neck, suggesting meningitis, which does not match the PATIENT's symptoms.\n* Cases 4 and 8 have clear diagnostic conclusions (community-acquired pneumonia and acute asthma exacerbation, respectively), leaving only a few potential differential diagnoses for the PATIENT.\n\n### 2. Clinical Analysis\n\n- **Severity indicators**: The patient's mental instability and fatigue, combined with the significantly low temperature (35\u00b0C) and high heart rate (90 bpm), suggest a severe systemic illness.\n- **Concerning features**: The presence of psychopathic urges in conjunction with other symptoms raises concern for potential suicidal or violent behavior. The cold symptoms may be indicative of sepsis or another severe infection.\n- **Plausible pathophysiological processes**: Given the combination of fatigue, mental instability, and high heart rate, a possible explanation could involve systemic inflammation (e.g., sepsis), metabolic derangement (due to chronic substance abuse), or an underlying infectious process that is not immediately apparent.\n\n### 3. Differential Diagnosis (ranked)\n\n1. **Suspected Sepsis** (Case 4, but with different symptoms and history): The combination of fatigue, mental instability, cold symptoms, and high heart rate makes this a plausible concern.\n2. **Metabolic Crisis** (general medical knowledge): Given the patient's history of substance abuse and presentation of severe systemic illness, metabolic derangement is a possible underlying cause.\n3. **Systemic Infection** (Case 4, but with different symptoms and history): The presence of cold symptoms could indicate an infectious process, although none of the retrieved cases exactly match the PATIENT's profile.\n\n### 4. 12-Hour Clinical Risk Assessment\n\nLow to Moderate: While there are several potential causes for concern, without more specific diagnostic information (e.g., lab results indicating sepsis or infection), it is challenging to definitively categorize the risk level solely based on presentation.\n\n### 5. Recommended Next Steps\n\n\u201cMonitor vitals closely and evaluate for secondary causes if symptoms worsen. Consider imaging (e.g., chest X-ray, CT scan) to rule out pulmonary embolism or other conditions that could explain the high heart rate and fatigue. Further evaluation with laboratory tests to assess liver function and rule out metabolic derangement is warranted given the patient's history of Cirrhosis and substance abuse.\u201d\n\n",
+      "notes": [],
+      "timestamp": "2025-11-17T13:34:25.195924"
+    },
+    {
+      "id": 7,
+      "name": "Ethan",
+      "symptom": "Chest tightness and shortness of breath",
+      "history": "32-year-old male, non-smoker, no chronic illnesses, works a high-stress office job. Father had a heart attack at age 54. No known allergies.",
+      "onset": "Symptoms started 2 days ago after climbing stairs.\nTightness comes and goes, lasts 10\u201320 minutes at a time.\nWorse at night and during stressful meetings.\nNo radiation to arm or jaw.\nNo fever or cough.\nReports mild dizziness during one episode.",
+      "vitals": "HR: 101 bpm\n\nBP: 138/86 mmHg\n\nSpO\u2082: 98%\n\nTemp: 36.9\u00b0C\n\nRR: 18\n\nECG: Not yet done",
+      "parsed_vitals": {
+        "spo2": null,
+        "hr": 101.0,
+        "sbp": 138.0,
+        "dbp": 86.0,
+        "temp": 36.9
+      },
+      "summary": "Symptom: Chest tightness and shortness of breath. History: 32-year-old male, non-smoker, no chronic illnesses, works a high-stress office job. Father had a heart attack at age 54. No known allergies.. Onset: Symptoms started 2 days ago after climbing stairs.\nTightness comes and goes, lasts 10\u201320 minutes at a time.\nWorse at night and during stressful meetings.\nNo radiation to arm or jaw.\nNo fever or cough.\nReports mild dizziness during one episode.. Vitals: HR: 101 bpm\n\nBP: 138/86 mmHg\n\nSpO\u2082: 98%\n\nTemp: 36.9\u00b0C\n\nRR: 18\n\nECG: Not yet done.",
+      "risk": 0,
+      "status": "Stable",
+      "ai_summary": "### 1. Relevant Case Insights\n\nThe PATIENT presents with chest tightness and shortness of breath, which started 2 days ago after climbing stairs. This onset pattern is somewhat consistent with **Case ID: 12**, where the patient experienced severe chest tightness during exercise. However, the PATIENT's symptoms are less severe in intensity (10\u201320 minutes at a time) compared to Case ID: 12.\n\nThe PATIENT's history of a father having a heart attack at age 54 may also be considered, as this could suggest a possible familial component to their condition.\n\n### 2. Clinical Analysis\n\n**Severity Indicators:** The PATIENT's symptoms have been worsening over the past 2 days, and they experience mild dizziness during one episode. This suggests that the patient's condition is not solely related to exertion but may be more complex in nature.\n\n**Concerning Features:** The PATIENT's vitals show an elevated heart rate (101 bpm) and blood pressure (138/86 mmHg), which could indicate increased sympathetic tone or a stress response.\n\n**Plausible Pathophysiological Processes:** Given the combination of chest tightness, shortness of breath, and elevated vitals, possible explanations may include anxiety-related cardiac issues or an acute coronary syndrome. However, without further diagnostic information, it is essential to consider alternative explanations that are less likely.\n\n### 3. Differential Diagnosis (ranked)\n\n1. **Anxiety-Related Cardiac Issues**: The PATIENT's symptoms seem closely related to stressors in their work environment and the family history of cardiovascular disease.\n2. **Acute Coronary Syndrome**: Although less likely given the absence of radiation to the arm or jaw, this cannot be ruled out without further diagnostic evaluation (e.g., ECG).\n3. **Asthma Exacerbation**: The PATIENT's breathing symptoms could suggest an asthma exacerbation, but there are no reported allergies that would support this diagnosis strongly.\n4. **Pulmonary Embolism**: While possible given the shortness of breath, this is less likely without further evidence of a high-risk pulmonary condition or known risk factors for emboli.\n\n### 4. 12-Hour Clinical Risk Assessment\n\n**Low**\n\nExplaination: The PATIENT does not exhibit immediate red-flag features such as severe chest pain radiating to the arm, significant hypertension, fever, or signs of shock. Their vital signs are relatively stable despite elevated heart rate and blood pressure.\n\n### 5. Recommended Next Steps\n\n- **Further evaluation for cardiac causes** may be warranted due to the family history of cardiovascular disease and the patient's symptoms suggestive of possible anxiety-related or acute coronary syndrome.\n- **Monitor vitals closely**, especially at night and during stressful meetings, to track any potential worsening.\n- **Consider a stress test** as part of further diagnostic workup for cardiac conditions.\n\n### 6. If Evidence is Insufficient\n\nThis response does not include this section because there are plausible differential diagnoses supported by the PATIENT's presentation and possibly linked to their retrieved CASES, despite some ambiguity in the interpretation.\n\n",
+      "notes": [],
+      "timestamp": "2025-11-18T14:48:45.383810"
+    },
+    {
+      "id": 8,
+      "name": "Cecilia",
+      "symptom": "Dizziness and rapid heartbeat",
+      "history": "21-year-old woman, university student.\nNo chronic illnesses.\nMild seasonal allergies.\nRecently increased caffeine intake (energy drinks during exams).\nReports poor sleep for the past week.\nNo family history of cardiovascular disease.",
+      "onset": "Symptoms began 3 days ago.\nEpisodes occur 2\u20133 times per day, lasting 5\u201310 minutes.\nTriggered after standing up quickly or during stressful study periods.\nReports feeling shaky during episodes.\nNo chest pain, no shortness of breath, no fever.\nDenies recent illness or dehydration, but has been skipping meals during exam period.",
+      "vitals": "HR: 118 bpm (mild tachycardia)\n\nBP: 104/68 mmHg\n\nSpO\u2082: 99%\n\nTemp: 36.8\u00b0C\n\nRR: 16 breaths/min",
+      "parsed_vitals": {
+        "spo2": null,
+        "hr": 118.0,
+        "sbp": 104.0,
+        "dbp": 68.0,
+        "temp": 36.8
+      },
+      "summary": "Symptom: Dizziness and rapid heartbeat. History: 21-year-old woman, university student.\nNo chronic illnesses.\nMild seasonal allergies.\nRecently increased caffeine intake (energy drinks during exams).\nReports poor sleep for the past week.\nNo family history of cardiovascular disease.. Onset: Symptoms began 3 days ago.\nEpisodes occur 2\u20133 times per day, lasting 5\u201310 minutes.\nTriggered after standing up quickly or during stressful study periods.\nReports feeling shaky during episodes.\nNo chest pain, no shortness of breath, no fever.\nDenies recent illness or dehydration, but has been skipping meals during exam period.. Vitals: HR: 118 bpm (mild tachycardia)\n\nBP: 104/68 mmHg\n\nSpO\u2082: 99%\n\nTemp: 36.8\u00b0C\n\nRR: 16 breaths/min.",
+      "risk": 15,
+      "status": "Stable",
+      "ai_summary": "### 1. Relevant Case Insights\n\nUpon comparing the PATIENT presentation to the retrieved CASES, several patterns emerge:\n\n- **Episodes triggered by standing up quickly or stressful situations**: This matches Case ID: 9 (Fatigue, palpitations) and Case ID: 2 (Dizziness, nausea, fatigue), both of which have episodes triggered by similar circumstances.\n- **Mild tachycardia with no chest pain**: The PATIENT has a heart rate of 118 bpm, but no chest pain is reported. This aligns with the mild presentation seen in Case ID: 1 (Shortness of breath, mild chest tightness), where blood pressure and oxygen saturation are normal.\n- **Recent increased caffeine intake**: This matches the pattern observed in several cases, including those related to fatigue and palpitations.\n\n### 2. Clinical Analysis\n\nThe PATIENT's symptoms can be broken down into two primary concerns:\n\n- **Dizziness and rapid heartbeat**: These symptoms suggest a potential cardiovascular cause, with the recent increase in caffeine intake being a possible trigger. The mild tachycardia (118 bpm) without chest pain or shortness of breath suggests an upper respiratory or nervous system origin rather than a cardiac cause.\n  \n- **Shakiness during episodes**: This symptom may indicate autonomic nervous system dysfunction or hypoglycemia, but given the lack of other symptoms such as palpitations at rest and absence of reported hunger pangs or tremors, it is less likely to be directly related.\n\nThe key consideration here is distinguishing between causes that could lead to these specific symptoms. While caffeine can cause tachycardia, its role in inducing dizziness isn't clearly understood without more context about the patient's overall health and current level of hydration.\n\n### 3. Differential Diagnosis (ranked)\n\nGiven the PATIENT presentation:\n\n1. **Anemia-induced tachycardia** (Case ID: 9) - Although not a perfect match due to the lack of reported fatigue at rest, caffeine can exacerbate symptoms in individuals with anemia. This is less likely given the patient's otherwise normal vital signs and absence of reported anemic episodes.\n2. **Caffeine withdrawal or sensitivity** - Could cause dizziness but would typically be accompanied by other withdrawal symptoms such as headache or irritability.\n3. **Orthostatic hypotension** - A plausible explanation for dizziness when standing, especially given the patient's age and lack of reported chronic illnesses. This condition is more likely if hydration levels are considered low based on skipped meals during exam periods.\n4. **Hypoglycemia-induced symptoms** - The shakiness could be a sign of low blood sugar. However, the absence of other hypoglycemic symptoms such as sweating, confusion, or hunger makes this diagnosis less likely without additional context.\n\n### 4. 12-Hour Clinical Risk Assessment\n\nLow\n\nThe primary risk here seems to be related to dehydration due to skipped meals during exam periods, especially in the context of mild tachycardia and dizziness upon standing. Monitoring for signs of worsening dehydration (e.g., increased thirst, dark urine) is recommended.\n\n### 5. Recommended Next Steps\n\n- **Re-evaluate hydration status**: Encourage fluid intake and monitor for any signs of dehydration.\n- **Consider caffeine restriction or reevaluation**: Assess the impact of recent increased caffeine intake on symptoms and adjust accordingly.\n\n### 6. If Evidence is Insufficient\n\nNo specific statement can be made as none of the CASES directly address dizziness with rapid heartbeat in the absence of other symptoms, and general medical knowledge does not support a singular diagnosis based solely on this presentation without more context.\n\n",
+      "notes": [],
+      "timestamp": "2025-11-18T14:57:27.023306"
+    }
+  ],
+  "alerts": []
+}

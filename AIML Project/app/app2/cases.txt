@@ -1,0 +1,95 @@
+=== CASE ===
+Case ID: 1
+Symptoms: Shortness of breath, mild chest tightness
+History: 65-year-old male with obesity and hypertension
+Vitals: O2 95%, BP 150/95, HR 92 bpm, Glucose normal
+Diagnosis: Mild hypertensive exacerbation
+Notes: Symptoms triggered by morning activity; recommend BP monitoring and lifestyle counseling.
+
+=== CASE ===
+Case ID: 2
+Symptoms: Dizziness, nausea, fatigue
+History: 70-year-old female with type 2 diabetes
+Vitals: O2 90%, BP 140/90, Glucose 220 mg/dL
+Diagnosis: Hyperglycemia with dehydration
+Notes: Encourage hydration; consider insulin adjustment.
+
+=== CASE ===
+Case ID: 3
+Symptoms: Chest pain radiating to left arm
+History: 55-year-old male, smoker, hyperlipidemia
+Vitals: O2 92%, BP 160/100, HR 110 bpm
+Diagnosis: Suspected myocardial infarction
+Notes: Requires urgent ECG and cardiac enzymes.
+
+=== CASE ===
+Case ID: 4
+Symptoms: Persistent cough and fever
+History: 40-year-old female with no major comorbidities
+Vitals: O2 94%, Temp 38.5°C, HR 98 bpm
+Diagnosis: Community-acquired pneumonia
+Notes: Recommend chest X-ray and antibiotics.
+
+=== CASE ===
+Case ID: 5
+Symptoms: Sudden shortness of breath, sharp chest pain
+History: 32-year-old female on oral contraceptives
+Vitals: O2 88%, HR 120 bpm, BP 135/85
+Diagnosis: Possible pulmonary embolism
+Notes: High-risk features; recommend D-dimer and CT angiography.
+
+=== CASE ===
+Case ID: 6
+Symptoms: Confusion, slurred speech
+History: 76-year-old male with atrial fibrillation
+Vitals: BP 165/95, O2 96%, Glucose 110 mg/dL
+Diagnosis: Suspected ischemic stroke
+Notes: Immediate brain imaging required; consider thrombolysis window.
+
+=== CASE ===
+Case ID: 7
+Symptoms: Severe abdominal pain, vomiting
+History: 28-year-old male, no relevant conditions
+Vitals: Temp 38.2°C, HR 105 bpm
+Diagnosis: Suspected appendicitis
+Notes: Pain localized to right lower quadrant; ultrasound recommended.
+
+=== CASE ===
+Case ID: 8
+Symptoms: Wheezing, shortness of breath
+History: 22-year-old female with asthma
+Vitals: O2 93%, HR 110 bpm
+Diagnosis: Acute asthma exacerbation
+Notes: Responds partially to inhaler; consider corticosteroids.
+
+=== CASE ===
+Case ID: 9
+Symptoms: Fatigue, palpitations
+History: 60-year-old male with chronic kidney disease
+Vitals: HR 120 bpm, O2 97%, Hb low
+Diagnosis: Anemia-induced tachycardia
+Notes: Recommend CBC and iron studies.
+
+=== CASE ===
+Case ID: 10
+Symptoms: Fever, stiff neck, headache
+History: 18-year-old college student
+Vitals: Temp 39.1°C, HR 112 bpm
+Diagnosis: Suspected meningitis
+Notes: Requires urgent lumbar puncture and IV antibiotics.
+
+=== CASE ===
+Case ID: 11
+Symptoms: Excessive thirst, frequent urination
+History: 50-year-old female, no known diabetes
+Vitals: Glucose 310 mg/dL, O2 98%
+Diagnosis: Newly diagnosed diabetes mellitus
+Notes: Recommend hydration, insulin initiation, and education.
+
+=== CASE ===
+Case ID: 12
+Symptoms: Severe chest tightness during exercise
+History: 48-year-old male, smoker, high LDL
+Vitals: O2 96%, BP 145/90, HR 102 bpm
+Diagnosis: Stable angina
+Notes: Needs stress test and lipid control.
